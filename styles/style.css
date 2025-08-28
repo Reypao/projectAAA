@@ -1,0 +1,64 @@
+:root {
+    --primary-color: rgb(39, 39, 190);
+    --secondary-color: lightblue;
+    --background-color: rgb(152, 198, 180);
+    --text-color: rgb(2, 2, 67);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+/* HEADER */
+
+.site-header {
+    background-color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+}
+
+.logo-img {
+    width: 5%;
+    height: auto;
+}
+
+.site-name {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+    color: rgb(20, 13, 123);
+}
+
+/* NAV */
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    
+}
+
+.hamburguer {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000; /* or match your theme color */
+}
