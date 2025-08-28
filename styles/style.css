@@ -66,6 +66,10 @@ text-transform: uppercase;
 }
 
 .menu a:hover {
-background-color: brown;
+background-color: rgb(92, 219, 85);
 }
 
+h1 {
+    background-color: blue;
+    color: white;
+}
