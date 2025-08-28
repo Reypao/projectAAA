@@ -52,13 +52,20 @@ body {
     display: flex;
     gap: 1rem;
     margin-top: 0.5rem;
-    
+    justify-content: flex-end;
 }
 
-.hamburguer {
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #000; /* or match your theme color */
+.menu a {
+display: inline-block;
+padding: 0.5em 1em;
+color: rgb(2, 42, 42);
+text-decoration: none;
+font-size: 1em;
+line-height: 1;
+text-transform: uppercase;
 }
+
+.menu a:hover {
+background-color: brown;
+}
+
