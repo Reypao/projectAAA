@@ -3,6 +3,7 @@
     --secondary-color: lightblue;
     --background-color: rgb(152, 198, 180);
     --text-color: rgb(2, 2, 67);
+    --title-color: rgb(45, 148, 119);
 
 }
 
@@ -15,14 +16,29 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
     color: var(--text-color);
 }
+
+main {
+    padding: 2em 1.4em;
+}
+
+h1 {
+    background-color: var(--title-color);
+    color: white;
+    font-weight: 600;
+    font-size: 1.8em;
+    padding: .3em 0;
+    padding-left: 1em;
+}
+
+
 
 /* HEADER */
 
 .site-header {
-    background-color: var(--secondary-color);
+    background-color: var(--title-color);
     padding: 0.5rem 1rem;
 
 }
@@ -59,7 +75,7 @@ body {
 .menu a {
     display: inline-block;
     padding: 0.5em 1em;
-    color: rgb(2, 42, 42);
+    color: rgb(2, 37, 37);
     text-decoration: none;
     font-size: 1em;
     line-height: 1;
@@ -70,14 +86,44 @@ body {
     background-color: rgb(92, 219, 85);
 }
 
-h1 {
-    background-color: blue;
-    color: white;
-}
-
 .menu a.active {
     background-color: var(--primary-color);
     border: 1px solid var(--secondary-color);
     color: white;
     font-weight: 600;
 }
+
+.about-photo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-size: 1.4em;
+    padding: .5em 0;
+    text-align: center;
+    background-color: var(--title-color);
+}
+
+.about-me {
+    background-color: rgb(138, 214, 185);
+
+}
+
+.about-me .bio {
+    padding: 1em;
+}
+
+.student-photo {
+    background-color: rgb(138, 214, 185);
+}
+
+.student-photo .photo {
+display: flex;
+justify-content: center;
+
+}
+
