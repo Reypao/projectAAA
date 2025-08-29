@@ -18,6 +18,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
 }
+
 /* HEADER */
 
 .site-header {
@@ -30,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    display: block;
+
 }
 
 .logo-img {
@@ -56,17 +57,17 @@ body {
 }
 
 .menu a {
-display: inline-block;
-padding: 0.5em 1em;
-color: rgb(2, 42, 42);
-text-decoration: none;
-font-size: 1em;
-line-height: 1;
-text-transform: uppercase;
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: rgb(2, 42, 42);
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 .menu a:hover {
-background-color: rgb(92, 219, 85);
+    background-color: rgb(92, 219, 85);
 }
 
 h1 {
@@ -75,8 +76,8 @@ h1 {
 }
 
 .menu a.active {
-background-color: var(--primary-color);
-border: 1px solid var(--secondary-color);
-color: white;
-font-weight: 600;
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: white;
+    font-weight: 600;
 }
