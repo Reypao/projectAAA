@@ -12,13 +12,12 @@
 
 <body>
     <header class="site-header">
-        <div class="header-inner">
+        <div class="header-info">
             <img src="images/eglogo.png" alt="effrey guzman logo" class="logo-img">
-
             <span class="site-name">Effrey Guzman</span>
-            <button class="hamburguer" aria-label="Toggle Menu">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+        </div>
+        <div class="header-menu">
+
 
             <nav>
                 <ul class="menu">
@@ -27,7 +26,9 @@
                     <li><a href="#">Final Project</a></li>
                 </ul>
             </nav>
-
+            <button class="hamburguer" aria-label="Toggle Menu">
+                <span>☰</span>
+            </button>
         </div>
     </header>
     <main>
@@ -60,12 +61,30 @@
             </div>
             <div class="student-photo">
                 <h2 class="section-title">Student Photo</h2>
-                <div class="photo"><img src="images/effrey.jpg" alt="Effrey Guzman Photo" width="300" height="300">
+                <div class="photo"><img src="images/effrey.jpg" alt="Effrey Guzman Photo">
                 </div>
             </div>
-
-
         </section>
+        <section class="courses">
+            <h2 class="section-title">Web Certicate Courses</h2>
+            <div class="courses-grid">
+                <div class="course-column">
+                    <button class="course-btn">All</button>
+                    <span class="course-item">WDD 130</span>
+                </div>
+                <div class="course-column">
+                    <button class="course-btn">CSE</button>
+                    <span class="course-item">WDD 131</span>
+                </div>
+                <div class="course-column">
+                    <button class="course-btn">WDD</button>
+                    <span class="course-item">WDD 231</span>
+                </div>
+            </div>
+            <p class="course-info">The total credits for courses listed above is <strong>6</strong></p>
+        </section>
+
+
 
 
     </main>
