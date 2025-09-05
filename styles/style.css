@@ -44,7 +44,8 @@ h1 {
     justify-content: space-between;
 }
 
-.header-info, .header-menu {
+.header-info,
+.header-menu {
     display: flex;
     align-items: center;
     gap: 1em;
@@ -109,12 +110,13 @@ h1 {
     background-color: var(--title-color);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    width: 100%;;
+    width: 100%;
+    ;
 }
 
 .about-me {
     background-color: rgb(138, 214, 185);
-    
+
 }
 
 .about-me .bio {
@@ -132,25 +134,20 @@ h1 {
 }
 
 .photo img {
-width: 300px;
-height: 430px;
+    width: 300px;
+    height: 430px;
 }
 
-/* COURSES*/
-
+/*course*/
 .courses {
-    margin-top: 1em; 
-    padding: 1em;
-    text-align: center;
-
+    margin-top: 5em;
 }
 
-.course-grid {
+.courses-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
-    margin-top: 0.5em;
-    
+    margin-top: 1em;
 }
 
 .course-column {
@@ -158,13 +155,53 @@ height: 430px;
     flex-direction: column;
     gap: 0.5em;
     text-align: center;
+
 }
 
-.course-column div {
-    background-color: gray;
-    padding: 1em;
+.course-btn {
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 550;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--background-color);
+}
+
+.course-item {
     font-weight: bold;
-    
+    font-size: 1.5em;
+    padding: 0.1em;
+    background: rgba(98, 179, 106, 0.8);
+    color: var(--primary-color);
 }
 
+.course-info {
+    text-align: center;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 0.5em;
+}
+
+.social-icons a img {
+    width: 3em;
+    height: auto;
+    display: block;
+}
+
+.footer-info {
+    background-color: var(--text-color);
+    color: antiquewhite;
+}
 
