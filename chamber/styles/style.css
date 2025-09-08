@@ -1,0 +1,21 @@
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: var(--secondary-color);
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    flex-wrap: wrap;
+}
+
+.site-name {
+    color: var(--text-color);
+    font-size: 4rem;
+    margin: 4rem;
+}
+
+
+
