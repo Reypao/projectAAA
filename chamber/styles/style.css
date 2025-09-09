@@ -13,9 +13,83 @@ header {
 
 .site-name {
     color: var(--text-color);
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 4rem;
 }
+
+.header-menu {
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: end;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+.menu a {
+    color: var(--text-color);
+}
+
+.menu a:hover {
+    background-color: rgb(36, 213, 110);
+    color: black;
+}
+
+.menu a.active {
+    background-color: rgb(163, 87, 11);
+    color: white;
+}
+
+/*main*/
+/* Center the hero image and button */
+.hero-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1800px;
+}
+
+.hero-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Style the Join button inside the image */
+.join-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.join-btn:hover {
+    background-color: #388e3c;
+}
+
+
+
+
+
 
 
 
