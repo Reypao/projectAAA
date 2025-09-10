@@ -5,7 +5,7 @@ header {
     align-items: end;
     background-color: var(--secondary-color);
     padding-top: 1rem;
-    padding-bottom: 0.8rem;
+    padding-bottom: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
     flex-wrap: wrap;
@@ -55,18 +55,18 @@ header {
     justify-content: center;
     align-items: center;
     margin: 2rem auto;
-    max-width: 1800px;
+    max-width: 2000px;
 }
 
 .hero-container img {
     width: 100%;
     height: auto;
-    display: block;
+    display: flex;
     border-radius: 8px;
 }
 
 /* Style the Join button inside the image */
-.join-btn {
+.cta-btn {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -78,8 +78,9 @@ header {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .join-btn:hover {
